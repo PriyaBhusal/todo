@@ -15,10 +15,10 @@ function addTask()
     let span = document.createElement("span")
     span.innerHTML='\u00d7';
     liElement.appendChild(span);
+    saveData();
  }
  inputBox.value='';
 }
- saveData();
 
 
 listContainer.addEventListener('click',function(e)
